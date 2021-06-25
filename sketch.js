@@ -6,25 +6,16 @@ const Body = Matter.Body;
 
 let engine;
 let world;
-var ball;
-var ground;
 
-function setup() {
+function setup()
+{
   createCanvas(400,400);
 
-  engine = Engine.create();
-  world = engine.world;
-  
-  rectMode(CENTER);
-  ellipseMode(RADIUS);
 }
-
 
 function draw() 
 {
   background(51);
-  Engine.update(engine);
-
  
 }
 
